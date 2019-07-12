@@ -21,15 +21,7 @@ export const meta = {
 
 Now we know how to build and start a Next.js app. We did everything with npm scripts. So, you will be able to customize it to work with your favorite deployment service.
 
-to deploy our app with [▲ZEIT Now](https://zeit.co/now) let's add the `next.config.js` file in the root of the project and specify `target` as `serverless`:
-
-```js
-module.exports = {
-  target: 'serverless'
-};
-```
-
-Then, create a now.json file in the root of your project with the following content:
+To deploy our app with [▲ZEIT Now](https://zeit.co/now) let's create a now.json file in the root of your project with the following content:
 
 ```json
 {
